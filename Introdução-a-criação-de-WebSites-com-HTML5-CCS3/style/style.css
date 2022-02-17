@@ -1,5 +1,8 @@
 body {
     background-color: #A9A9A9;
+    font-family: Verdana;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .photo {
@@ -9,6 +12,15 @@ body {
 
 #title, .subtitle, .post_title {
     color: #000;
+}
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: line-through;
 }
 
 .post_title {
@@ -29,6 +41,8 @@ body {
 .post_content {
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
 
 }
 
@@ -36,4 +50,14 @@ body {
     border: 3px solid #00BFFF;
     border-radius: 20px;
     margin-bottom: 15px;
+}
+
+.contacts_list{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contacts_list li a {
+    text-decoration: none;
+    font-weight: bold;
 }
